@@ -2,3 +2,5 @@ aiogram==2.25.2
 openai==1.14.3
 replicate==0.24.0
 aiohttp==3.8.4
+multidict==6.0.4
+yarl==1.9.2
