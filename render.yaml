@@ -1,19 +1,14 @@
 services:
   - type: web
-    name: memaigen
+    name: genmem-bot
     env: python
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
     envVars:
       - key: BOT_TOKEN
-        sync: false
+        value: your-real-telegram-bot-token
       - key: OPENAI_API_KEY
-        sync: false
+        value: your-real-openai-key
       - key: REPLICATE_API_TOKEN
-        sync: false
-    build:
-      aptPackages:
-        - build-essential
-        - libffi-dev
-        - python3-dev
-        - gcc
+        value: your-real-replicate-key
