@@ -1,8 +1,6 @@
---only-binary=aiohttp,yarl,frozenlist
-aiohttp==3.9.5
-yarl==1.9.4
-frozenlist==1.4.1
 aiogram==2.25.2
-multidict==6.0.4
+aiohttp==3.9.3
+yarl==1.9.3
+frozenlist==1.4.0
 openai==1.14.3
 replicate==0.24.0
