@@ -7,8 +7,10 @@ services:
     startCommand: python main.py
     envVars:
       - key: BOT_TOKEN
-        value: your-real-telegram-bot-token
+        value: your-telegram-token
       - key: OPENAI_API_KEY
-        value: your-real-openai-key
+        value: your-openai-key
       - key: REPLICATE_API_TOKEN
-        value: your-real-replicate-key
+        value: your-replicate-key
+    build:
+      pythonVersion: 3.11.8
